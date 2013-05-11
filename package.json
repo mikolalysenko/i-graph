@@ -1,0 +1,33 @@
+{
+  "name": "i-graph",
+  "version": "0.0.0",
+  "description": "Generalized generalized Petersen graph generator",
+  "main": "igraph.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "simplicial-disjoint-union": "~0.0.0",
+    "star-polygon": "~0.0.0"
+  },
+  "devDependencies": {
+    "tap": "~0.4.2"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/i-graph.git"
+  },
+  "keywords": [
+    "i-graph",
+    "generator",
+    "Petersen",
+    "graph"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "87108255dbd156b8e0262b4c1d92c503f55b44a7"
+}
